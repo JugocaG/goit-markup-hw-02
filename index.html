@@ -3,6 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="Primer tarea GoIT fullStack" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
     <title>WebStudio</title>
   </head>
 
@@ -15,23 +27,33 @@
       >
 
       <nav>
-        <ul>
-          <li>Estudio</li>
+        <ul class="menu">
+          <li><a href="index.html">Estudio</a></li>
           <li><a href="portfolio.html">Portafolio</a></li>
-          <li>Contactenos</li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+525555296000">+52 55 5529 6000</a></li>
+          <li><a href="">Contactenos</a></li>
+        </ul>
+        <ul class="contact">
+          <li>
+            <a href="mailto:info@devstudio.com" class="contact"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+525555296000" class="contact">+52 55 5529 6000</a>
+          </li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section>
+      <section class="principal-section">
         <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-        <button type="button">Solicite nuestro servicio</button>
+        <div>
+          <button type="button">Solicite nuestro servicio</button>
+        </div>
       </section>
 
-      <section>
+      <section class="caracteristics">
         <ul>
           <li>
             <h3>ATENCIÓN A LOS DETALLES</h3>
@@ -68,8 +90,8 @@
         </ul>
       </section>
 
-      <section>
-        <h2>A que nos dedicamos</h2>
+      <section class="dedication">
+        <h2>A qué nos dedicamos</h2>
         <ul>
           <li>
             <img
@@ -98,7 +120,7 @@
         </ul>
       </section>
 
-      <section>
+      <section class="team">
         <h2>Nuestro equipo</h2>
         <ul>
           <li>
@@ -153,16 +175,20 @@
       >
       <address>
         <ul>
-          <li>
+          <li class="direction">
             Calz. Ticomán 500, Ciudad de
             <br />
             México, CDMX, México
           </li>
           <li>
-            <a href="mailto:info@example.com">info@example.com</a>
+            <a class="footer-contact" href="mailto:info@example.com"
+              >info@example.com</a
+            >
           </li>
           <li>
-            <a href="tel:+525555296000 ">+52 55 5529 6000 </a>
+            <a class="footer-contact" href="tel:+525555296000 "
+              >+52 55 5529 6000
+            </a>
           </li>
         </ul>
       </address>
